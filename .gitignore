@@ -1,0 +1,76 @@
+# ==========================================
+# Environment & Secrets (Never commit secrets)
+# ==========================================
+.env
+.env.*
+*.env
+atlas-credentials.env
+!.env.example
+
+# ==========================================
+# Dependencies
+# ==========================================
+/vendor/
+/node_modules/
+composer.phar
+
+# ==========================================
+# User Uploads & Dynamic Storage
+# ==========================================
+/uploads/models/*
+!/uploads/models/.gitkeep
+/uploads/projects/*
+!/uploads/projects/.gitkeep
+/uploads/settings/*
+!/uploads/settings/.gitkeep
+/uploads/videos/*
+!/uploads/videos/.gitkeep
+
+# ==========================================
+# Compressed Archives & Backups
+# ==========================================
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.bak
+*.backup
+*.sql.gz
+
+# ==========================================
+# Logs, Cache & Temporary Files
+# ==========================================
+*.log
+/logs/
+/tmp/
+/temp/
+.cache/
+.phpunit.result.cache
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# IDE & Code Editor Files
+# ==========================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
