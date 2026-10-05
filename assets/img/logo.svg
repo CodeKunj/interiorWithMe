@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+    <style>
+        .brand { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 32px; fill: #F5F1EA; letter-spacing: 0.25em; font-weight: 300; }
+        .sub { font-family: 'Inter', sans-serif; font-size: 7.5px; fill: #B08D57; letter-spacing: 0.4em; font-weight: 600; text-transform: uppercase; }
+        .dot { fill: #B08D57; }
+    </style>
+    <text x="5" y="34" class="brand">AMAK</text>
+    <circle cx="160" cy="24" r="3" class="dot" />
+    <text x="6" y="48" class="sub">SPATIAL STUDIO &bull; NYC</text>
+</svg>
